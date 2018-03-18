@@ -14,9 +14,12 @@ shotty uses the configuration file created by the AWS cli. e.g.
 
 ## Running
 
-`pipenv run "pyhon shotty/shotty.py"`
+`pipenv run "pyhon shotty/shotty.py <command> [--project=PROJECT]"`
 
-## Docs
+*command* is list, start or stop
+*project* is optional 
+
+## Docs::BOTO  
 
 http://boto3.readthedocs.io/en/latest/reference/services/ec2.html
 ```
@@ -33,3 +36,7 @@ i.id
 i.placement
 i.state
 ```
+
+## Docs::click
+
+http://click.pocoo.org/
